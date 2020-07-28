@@ -24,7 +24,6 @@ const Team = () => {
                 src={require("../images/Nab-02.png")}
                 className="img-fluid"
                 alt="Nabeel Ahmed"
-                // style={{ borderRadius: "100%" }}
               />
               <div className="member-info">
                 <div className="member-info-content">

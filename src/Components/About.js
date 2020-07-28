@@ -27,7 +27,6 @@ const About = () => {
 
             <div className="icon-box wow fadeInUp">
               <div className="icon">
-                {/* <FontAwesomeIcon icon="spinner" /> */}
                 <i
                   className="fa fa-shopping-bag"
                   style={{ color: "green" }}

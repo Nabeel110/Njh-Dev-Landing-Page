@@ -5,7 +5,6 @@ import "../App.css";
 const Introduction = () => {
   return (
     <>
-      {/* ============================--> */}
       <section id="intro" className="clearfix">
         <Container>
           <div className="intro-img">

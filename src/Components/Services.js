@@ -3,9 +3,6 @@ import { Container } from "react-bootstrap";
 
 const Services = () => {
   return (
-    //     <!--==========================
-    //   Services Section
-    //   ============================-->
     <section id="services" className="section-bg">
       <Container>
         <header className="section-header">
@@ -22,13 +19,7 @@ const Services = () => {
             data-wow-duration="1.4s"
           >
             <div className="box">
-              <div className="icon">
-                {/* <i
-                  className="fa fa-shopping-bag"
-                  width="20px"
-                  style={{ width: "50px", margin: "3px", color: "#ff689b" }}
-                ></i> */}
-              </div>
+              <div className="icon"></div>
               <h4 className="title">
                 <a href="#services">Lorem Ipsum</a>
               </h4>
