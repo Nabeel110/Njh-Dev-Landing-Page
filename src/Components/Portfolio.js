@@ -29,8 +29,8 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="row portfolio-container">
-          <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="fadeInLeftBig">
+          <div className="row portfolio-container">
             <div className="col-lg-6 col-md-6 portfolio-item filter-app">
               <div className="portfolio-wrap">
                 <img src={proj1} className="img-fluid" alt="iba-chat-bot" />
@@ -60,13 +60,11 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-          </ScrollAnimation>
 
-          <div
-            className="col-lg-6 col-md-6 portfolio-item filter-web"
-            data-wow-delay="0.1s"
-          >
-            <ScrollAnimation animateIn="flipInX">
+            <div
+              className="col-lg-6 col-md-6 portfolio-item filter-web"
+              data-wow-delay="0.1s"
+            >
               <div className="portfolio-wrap">
                 <img src={proj2} className="img-fluid" alt="15-puzzle-game" />
                 <div className="portfolio-info">
@@ -94,9 +92,9 @@ const Portfolio = () => {
                   </div>
                 </div>
               </div>
-            </ScrollAnimation>
+            </div>
           </div>
-        </div>
+        </ScrollAnimation>
       </Container>
     </section>
   );
