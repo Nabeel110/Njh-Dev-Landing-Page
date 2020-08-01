@@ -1,18 +1,29 @@
 import React from "react";
 
+import Typist from "react-typist";
+import ScrollAnimation from "react-animate-on-scroll";
+
 const ContactUs = () => {
   return (
     <section id="contact-us">
       <div className="container contact-form">
-        <div className="contact-image">
-          <img
-            src="https://image.ibb.co/kUagtU/rocket_contact.png"
-            alt="rocket_contact"
-            style={{ color: "green" }}
-          />
-        </div>
+        <ScrollAnimation animateIn="slideInUp">
+          <div className="contact-image">
+            <img
+              src="https://image.ibb.co/kUagtU/rocket_contact.png"
+              alt="rocket_contact"
+              style={{ color: "green" }}
+            />
+          </div>
+        </ScrollAnimation>
         <form method="post">
-          <h3>Drop Us a Message</h3>
+          <Typist
+            startDelay={3000}
+            cursor={{ show: false }}
+            avgTypingDelay={25}
+          >
+            <h3>Drop Us a Message</h3>
+          </Typist>
           <div className="row">
             <div className="col-md-6">
               <div className="form-group">

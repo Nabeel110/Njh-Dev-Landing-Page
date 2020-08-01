@@ -1,21 +1,32 @@
 import React from "react";
 
+import ScrollAnimation from "react-animate-on-scroll";
+import Typist from "react-typist";
+
 const Team = () => {
   return (
     <section id="team">
       <div className="container">
-        <div className="section-header">
-          <h3>Team</h3>
-          <h4
-            style={{
-              textAlign: "center",
-              paddingBottom: "25px",
-              color: "#dee8f2",
-            }}
-          >
-            Meet the Team behind this Venture
-          </h4>
-        </div>
+        <ScrollAnimation animateIn="slideInUp">
+          <div className="section-header">
+            <h3>Team</h3>
+            <Typist
+              startDelay={2500}
+              cursor={{ show: false }}
+              avgTypingDelay={25}
+            >
+              <h4
+                style={{
+                  textAlign: "center",
+                  paddingBottom: "25px",
+                  color: "#dee8f2",
+                }}
+              >
+                Meet the Team behind this Venture
+              </h4>
+            </Typist>
+          </div>
+        </ScrollAnimation>
 
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
