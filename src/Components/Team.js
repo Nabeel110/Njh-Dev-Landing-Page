@@ -9,7 +9,7 @@ const Team = () => {
       <div className="container">
         <ScrollAnimation animateIn="slideInUp">
           <div className="section-header">
-            <h3>Team</h3>
+            <h3 style={{ color: "black" }}>Team</h3>
             <Typist
               startDelay={2500}
               cursor={{ show: false }}

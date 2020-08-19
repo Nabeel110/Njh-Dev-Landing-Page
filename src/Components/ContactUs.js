@@ -56,7 +56,6 @@ const ContactUs = () => {
                   name="btnSubmit"
                   className="btnContact"
                   value="Send Message"
-                  style={{ color: "green" }}
                 />
               </div>
             </div>

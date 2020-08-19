@@ -20,11 +20,6 @@ const MoreInfo = () => {
         <header className="section-header">
           <ScrollAnimation animateIn="fadeInUp">
             <h3>Why choose us?</h3>
-
-            <p>
-              Laudem latine persequeris id sed, ex fabulas delectus quo. No vel
-              partiendo abhorreant vituperatoribus.
-            </p>
           </ScrollAnimation>
         </header>
 
@@ -34,14 +29,14 @@ const MoreInfo = () => {
               <div className="card wow bounceInUp">
                 <i className="fa fa-diamond"></i>
                 <div className="card-body">
-                  <h5 className="card-title">Corporis dolorem</h5>
+                  <h5 className="card-title">Quality</h5>
                   <p className="card-text">
-                    Deleniti optio et nisi dolorem debitis. Aliquam nobis est
-                    temporibus sunt ab inventore officiis aut voluptatibus.
+                    We set high standards for our work and only deliver our
+                    best.{" "}
                   </p>
-                  <a href="#home" className="readmore">
+                  {/* <a href="#home" className="readmore">
                     Read more{" "}
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </ScrollAnimation>
@@ -50,16 +45,13 @@ const MoreInfo = () => {
           <div className="col-lg-4 mb-4">
             <ScrollAnimation animateIn="bounceInUp">
               <div className="card wow bounceInUp">
-                <i className="fa fa-language"></i>
+                <i className="fa fa-star"></i>
                 <div className="card-body">
-                  <h5 className="card-title">Voluptates dolores</h5>
+                  <h5 className="card-title">Reliability </h5>
                   <p className="card-text">
-                    Voluptates nihil et quis omnis et eaque omnis sint aut.
-                    Ducimus dolorum aspernatur.
+                    When we accept a project we provide a solid guarantee that
+                    we will complete it within the given time. No excuses.{" "}
                   </p>
-                  <a href="#home" className="readmore">
-                    Read more{" "}
-                  </a>
                 </div>
               </div>
             </ScrollAnimation>
@@ -68,16 +60,14 @@ const MoreInfo = () => {
           <div className="col-lg-4 mb-4">
             <ScrollAnimation animateIn="bounceInUp">
               <div className="card wow bounceInUp">
-                <i className="fa fa-object-group"></i>
+                <i className="fa fa-balance-scale"></i>
                 <div className="card-body">
-                  <h5 className="card-title">Eum ut aspernatur</h5>
+                  <h5 className="card-title">Integrity </h5>
                   <p className="card-text">
-                    Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis
-                    porro in non nemo ex.{" "}
+                    We always inform the client about any issues and
+                    reservations we have with regards to the project before
+                    accepting it. We are fully transparent in our work.{" "}
                   </p>
-                  <a href="#home" className="readmore">
-                    Read more{" "}
-                  </a>
                 </div>
               </div>
             </ScrollAnimation>

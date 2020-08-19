@@ -8,6 +8,8 @@ import MoreInfo from "./Components/MoreInfo";
 import Portfolio from "./Components/Portfolio";
 import Team from "./Components/Team";
 import ContactUs from "./Components/ContactUs";
+import WorkPresence from "./Components/WorkPresence";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
       <MoreInfo />
       <Portfolio />
       <Team />
+      <WorkPresence />
       <ContactUs />
+      <Footer />
     </div>
   );
 }

@@ -17,8 +17,7 @@ const Services = () => {
               avgTypingDelay={25}
             >
               <p style={{ color: "gray" }}>
-                Laudem latine persequeris id sed, ex fabulas delectus quo. No
-                vel partiendo abhorreant vituperatoribus.
+                We provide high quality custom software development services.
               </p>
             </Typist>
           </ScrollAnimation>
@@ -33,11 +32,13 @@ const Services = () => {
               <div className="box">
                 <div className="icon"></div>
                 <h4 className="title">
-                  <a href="#services">Lorem Ipsum</a>
+                  <a href="#services">Web Development</a>
                 </h4>
                 <p className="description">
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi sint occaecati cupiditate non provident
+                  Front end, Backend and Full Stack solutions. Our frameworks
+                  include React.js, Angular.js, Node.js / Express.js and Spring.
+                  We provide full deployment support on a wide range services
+                  including Heroku, AWS and Surge.
                 </p>
               </div>
             </div>
@@ -53,11 +54,11 @@ const Services = () => {
                   ></i>
                 </div>
                 <h4 className="title">
-                  <a href="#services">Dolor Sitema</a>
+                  <a href="#services">Data Analysis</a>
                 </h4>
                 <p className="description">
-                  Minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat tarad limino ata
+                  Data extraction, cleaning and analytics services. We provide
+                  holistic insights and detailed analysis reports.
                 </p>
               </div>
             </div>
@@ -75,11 +76,12 @@ const Services = () => {
                   ></i>
                 </div>
                 <h4 className="title">
-                  <a href="#services">Sed ut perspiciatis</a>
+                  <a href="#services">Graphic Designing & Animation</a>
                 </h4>
                 <p className="description">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur
+                  Brilliant vibrant designs for logos, websites, social media
+                  posts and more. Infographics and whiteboard animations for
+                  exquisite presentation.
                 </p>
               </div>
             </div>
@@ -96,11 +98,12 @@ const Services = () => {
                   ></i>
                 </div>
                 <h4 className="title">
-                  <a href="#services">Magni Dolores</a>
+                  <a href="#services">Wordpress</a>
                 </h4>
                 <p className="description">
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum
+                  E-commerce, Blog, LMS, inventory management system solutions
+                  with cutting edge Wordpress features and plugins. SEO
+                  optimized website providing modern view to your website.
                 </p>
               </div>
             </div>
@@ -118,11 +121,12 @@ const Services = () => {
                   ></i>
                 </div>
                 <h4 className="title">
-                  <a href="#services">Nemo Enim</a>
+                  <a href="#services">Artificial Intelligence:</a>
                 </h4>
                 <p className="description">
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque
+                  Offering smart solutions including trend predictors, chatbots,
+                  automated testers, diagnostic applications, recommender
+                  systems and plagiarism detectors.
                 </p>
               </div>
             </div>
@@ -139,11 +143,11 @@ const Services = () => {
                   ></i>
                 </div>
                 <h4 className="title">
-                  <a href="#services">Eiusmod Tempor</a>
+                  <a href="#services">App Development</a>
                 </h4>
                 <p className="description">
-                  Et harum quidem rerum facilis est et expedita distinctio. Nam
-                  libero tempore, cum soluta nobis est eligendi
+                  Full scale Flutter and Android apps with emphasis on material
+                  design.
                 </p>
               </div>
             </div>
