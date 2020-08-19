@@ -15,31 +15,37 @@ function WorkPresence() {
         <div className="row no-gutters clients-wrap clearfix wow fadeInUp">
           <div className="col-lg-4 col-md-4 col-xs-6">
             <div className="client-logo">
-              <img
-                src={require("../images/fiverr.png")}
-                className="img-fluid"
-                alt=""
-              />
+              <a href="https://www.fiverr.com/njh_developers?source=gig_cards&referrer_gig_slug=do-your-python-machine-learning-automation-projects&ref_ctx_id=d4fac57a-a024-48a6-ae99-83f906d53b80">
+                <img
+                  src={require("../images/fiverr.png")}
+                  className="img-fluid"
+                  alt="fiverr"
+                />
+              </a>
             </div>
           </div>
 
           <div className="col-lg-4 col-md-4 col-xs-6">
             <div className="client-logo">
-              <img
-                src={require("../images/guru.png")}
-                className="img-fluid"
-                alt=""
-              />
+              <a href="https://www.guru.com/service/java-developer/pakistan/sindh/karachi/4691375">
+                <img
+                  src={require("../images/guru.png")}
+                  className="img-fluid"
+                  alt="guru"
+                />
+              </a>
             </div>
           </div>
 
           <div className="col-lg-4 col-md-4 col-xs-6">
             <div className="client-logo">
-              <img
-                src={require("../images/freelancer.png")}
-                className="img-fluid"
-                alt=""
-              />
+              <a href="https://www.freelancer.com/u/njhdevelopers">
+                <img
+                  src={require("../images/freelancer.png")}
+                  className="img-fluid"
+                  alt="freelancer"
+                />
+              </a>
             </div>
           </div>
         </div>

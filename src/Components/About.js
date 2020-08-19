@@ -14,18 +14,19 @@ const About = () => {
       <Container>
         <header className="section-header">
           <ScrollAnimation animateIn="bounceIn">
-            <h3 style={{ color: "#ffe600" }}>About Us</h3>
+            <h3 style={{ color: "black" }}>About Us</h3>
 
             <Typist
               startDelay={3000}
               cursor={{ show: false }}
               avgTypingDelay={25}
             >
-              <p style={{ color: "black", fontSize: "20px" }}>
-                We are a team of three developers. (Nabeel Ahmed - Front End
-                Dev) (Muhammad Jawad - Backend Dev) (Humza Ahmed - Backend Dev).
-                We are currently enrolled in an undergraduate Computer Science
-                program.{" "}
+              <p style={{ color: "black", fontSize: "18px" }}>
+                NJH Developers is an organization specializing in the domains of
+                Web development, AI and Data Analysis. We provide our services
+                through various online freelancing platforms. Our primary
+                platform is Fiverr but we also have a presence on Guru and
+                Freelancer.
               </p>
             </Typist>
           </ScrollAnimation>
@@ -34,13 +35,8 @@ const About = () => {
         <ScrollAnimation animateIn="fadeInUp">
           <div className="row about-container">
             <div className="col-lg-6 content order-lg-1 order-2">
-              <p>
-                All three of us work together on every project and each of us
-                specializes in different frameworks and technologies. Our
-                priority is to deliver projects on time with the highest level
-                of quality.
-              </p>
-
+              <h2>Domains</h2>
+              <br />
               <div className="icon-box wow fadeInUp">
                 <div className="icon">
                   <i className="fa fa-microchip" style={{ color: "green" }}></i>
@@ -51,7 +47,7 @@ const About = () => {
                 <p className="description">
                   We provide cutting edge machine learning, deep learning and
                   automation solutions. using libraries like TensorFlow,
-                  Pytorch, NLTK
+                  Pytorch, NLTK.
                 </p>
               </div>
 
@@ -66,7 +62,7 @@ const About = () => {
                   We have expertise in extracting, cleaning and analyzing large
                   volumes of data. We present key insights that help in
                   decision-making. Our core objective is to make your own data
-                  useful to you and your endeavors.{" "}
+                  useful for you and your endeavors.
                 </p>
               </div>
 

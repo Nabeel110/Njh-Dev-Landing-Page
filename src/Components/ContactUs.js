@@ -50,14 +50,6 @@ const ContactUs = () => {
                   placeholder="Your Phone Number *"
                 />
               </div>
-              <div className="form-group">
-                <input
-                  type="submit"
-                  name="btnSubmit"
-                  className="btnContact"
-                  value="Send Message"
-                />
-              </div>
             </div>
             <div className="col-md-6">
               <div className="form-group">
@@ -68,6 +60,14 @@ const ContactUs = () => {
                   style={{ width: "100%", height: "150px" }}
                 ></textarea>
               </div>
+            </div>
+            <div className="form-group">
+              <input
+                type="submit"
+                name="btnSubmit"
+                className="btnContact"
+                value="Send Message"
+              />
             </div>
           </div>
         </form>

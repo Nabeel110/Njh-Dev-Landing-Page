@@ -41,16 +41,10 @@ const Team = () => {
                   <h4>Nabeel Ahmed</h4>
                   <span>Co-Founder and CEO at NJH-Dev</span>
                   <div className="social">
-                    <a href="#team">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                    <a href="#team">
+                    <a href="https://www.facebook.com/nabeel.ahmed.568089">
                       <i className="fa fa-facebook"></i>
                     </a>
-                    <a href="#team">
-                      <i className="fa fa-google-plus"></i>
-                    </a>
-                    <a href="#team">
+                    <a href="https://www.linkedin.com/in/problem-solver-nabeel-ahmed/">
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </div>
@@ -74,15 +68,10 @@ const Team = () => {
                   <h4>Muhammad Jawad</h4>
                   <span>Co-Founder and CEO at NJH-Dev</span>
                   <div className="social">
-                    <a href="#team">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                    <a href="#team">
+                    <a href="https://www.facebook.com/muhammad.jawwad.092">
                       <i className="fa fa-facebook"></i>
                     </a>
-                    <a href="#team">
-                      <i className="fa fa-google-plus"></i>
-                    </a>
+
                     <a href="#team">
                       <i className="fa fa-linkedin"></i>
                     </a>
@@ -107,16 +96,10 @@ const Team = () => {
                   <h4>Humza Ahmed</h4>
                   <span>Co-Founder and CEO at NJH-Dev</span>
                   <div className="social">
-                    <a href="#team">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                    <a href="#team">
+                    <a href="https://www.facebook.com/humza.ahmed.5099">
                       <i className="fa fa-facebook"></i>
                     </a>
-                    <a href="#team">
-                      <i className="fa fa-google-plus"></i>
-                    </a>
-                    <a href="#team">
+                    <a href="https://www.linkedin.com/in/humza-ahmed-10/">
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </div>
