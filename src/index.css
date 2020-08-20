@@ -1029,6 +1029,7 @@ code {
   padding: 8px 30px;
   color: #fff;
   transition: 0.3s;
+  margin-left: 100%;
 }
 
 #contact-us .form-group input[type="submit"]:hover {

@@ -121,7 +121,7 @@ const Services = () => {
                   ></i>
                 </div>
                 <h4 className="title">
-                  <a href="#services">Artificial Intelligence:</a>
+                  <a href="#services">Artificial Intelligence</a>
                 </h4>
                 <p className="description">
                   Offering smart solutions including trend predictors, chatbots,
